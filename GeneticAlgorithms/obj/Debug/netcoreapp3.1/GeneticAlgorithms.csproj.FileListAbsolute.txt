@@ -1,0 +1,26 @@
+C:\Users\Ewelina\Desktop\programowanko\GeneticAlgorithms\GeneticAlgorithms\bin\Debug\netcoreapp3.1\GeneticAlgorithms.exe
+C:\Users\Ewelina\Desktop\programowanko\GeneticAlgorithms\GeneticAlgorithms\bin\Debug\netcoreapp3.1\GeneticAlgorithms.deps.json
+C:\Users\Ewelina\Desktop\programowanko\GeneticAlgorithms\GeneticAlgorithms\bin\Debug\netcoreapp3.1\GeneticAlgorithms.runtimeconfig.json
+C:\Users\Ewelina\Desktop\programowanko\GeneticAlgorithms\GeneticAlgorithms\bin\Debug\netcoreapp3.1\GeneticAlgorithms.runtimeconfig.dev.json
+C:\Users\Ewelina\Desktop\programowanko\GeneticAlgorithms\GeneticAlgorithms\bin\Debug\netcoreapp3.1\GeneticAlgorithms.dll
+C:\Users\Ewelina\Desktop\programowanko\GeneticAlgorithms\GeneticAlgorithms\bin\Debug\netcoreapp3.1\GeneticAlgorithms.pdb
+C:\Users\Ewelina\Desktop\programowanko\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.csprojAssemblyReference.cache
+C:\Users\Ewelina\Desktop\programowanko\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.AssemblyInfoInputs.cache
+C:\Users\Ewelina\Desktop\programowanko\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.AssemblyInfo.cs
+C:\Users\Ewelina\Desktop\programowanko\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\Ewelina\Desktop\programowanko\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.dll
+C:\Users\Ewelina\Desktop\programowanko\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.pdb
+C:\Users\Ewelina\Desktop\programowanko\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.genruntimeconfig.cache
+F:\C# or C++ Projects\GeneticAlgorithms\GeneticAlgorithms\bin\Debug\netcoreapp3.1\GeneticAlgorithms.exe
+F:\C# or C++ Projects\GeneticAlgorithms\GeneticAlgorithms\bin\Debug\netcoreapp3.1\GeneticAlgorithms.deps.json
+F:\C# or C++ Projects\GeneticAlgorithms\GeneticAlgorithms\bin\Debug\netcoreapp3.1\GeneticAlgorithms.runtimeconfig.json
+F:\C# or C++ Projects\GeneticAlgorithms\GeneticAlgorithms\bin\Debug\netcoreapp3.1\GeneticAlgorithms.runtimeconfig.dev.json
+F:\C# or C++ Projects\GeneticAlgorithms\GeneticAlgorithms\bin\Debug\netcoreapp3.1\GeneticAlgorithms.dll
+F:\C# or C++ Projects\GeneticAlgorithms\GeneticAlgorithms\bin\Debug\netcoreapp3.1\GeneticAlgorithms.pdb
+F:\C# or C++ Projects\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.csprojAssemblyReference.cache
+F:\C# or C++ Projects\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.AssemblyInfoInputs.cache
+F:\C# or C++ Projects\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.AssemblyInfo.cs
+F:\C# or C++ Projects\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.csproj.CoreCompileInputs.cache
+F:\C# or C++ Projects\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.dll
+F:\C# or C++ Projects\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.pdb
+F:\C# or C++ Projects\GeneticAlgorithms\GeneticAlgorithms\obj\Debug\netcoreapp3.1\GeneticAlgorithms.genruntimeconfig.cache
