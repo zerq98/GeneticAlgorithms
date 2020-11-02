@@ -34,17 +34,6 @@ namespace GeneticAlgorithms
             Individuals = Individuals.OrderBy(x => x.Score).ToList();
         }
 
-        public void Display()
-        {
-            foreach(var individual in Individuals)
-            {
-                Console.WriteLine(individual.Score);
-            }
-
-            Thread.Sleep(2000);
-            Console.Clear();
-        }
-
         public void ResetScore()
         {
             foreach (var individual in Individuals)
