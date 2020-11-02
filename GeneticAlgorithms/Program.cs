@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Threading;
 
 namespace GeneticAlgorithms
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Equations equations = new Equations();
             Populations populations = new Populations();
@@ -15,7 +12,7 @@ namespace GeneticAlgorithms
             SolveEquation(populations, equations);
         }
 
-        static void SolveEquation(Populations populations,Equations equations)
+        private static void SolveEquation(Populations populations, Equations equations)
         {
             bool adaptedIndividual = false;
             bool mix = true;
@@ -38,9 +35,9 @@ namespace GeneticAlgorithms
                 populations.SortIndividuals();
 
                 counter = 0;
-                foreach(var adaptation in populations.Individuals)
+                foreach (var adaptation in populations.Individuals)
                 {
-                    if (adaptation.Score <= 1 && adaptation.Score >=0)
+                    if (adaptation.Score <= 1 && adaptation.Score >= 0)
                     {
                         adaptedIndividual = true;
                         indexOfAdaptedIndividual = counter;
@@ -53,7 +50,6 @@ namespace GeneticAlgorithms
                 {
                     for (int i = 0; i < 20;)
                     {
-
                         for (int g = 4; g < 8; g++)
                         {
                             double temp = populations.Individuals[i + 1].Members[g];
@@ -71,7 +67,7 @@ namespace GeneticAlgorithms
                     Console.WriteLine("Adapted individual:");
                     for (int j = 0; j < 8; j++)
                     {
-                        Console.WriteLine(populations.Individuals[indexOfAdaptedIndividual].Members[j] +" ");
+                        Console.WriteLine(populations.Individuals[indexOfAdaptedIndividual].Members[j] + " ");
                     }
 
                     Console.WriteLine("Score: " + populations.Individuals[indexOfAdaptedIndividual].Score);

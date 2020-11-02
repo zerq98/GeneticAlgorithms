@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading;
 
 namespace GeneticAlgorithms
 {
@@ -15,16 +13,16 @@ namespace GeneticAlgorithms
             Random random = new Random();
             Individuals = new List<Individual>();
 
-            for(int i = 0; i < 20; i++)
+            for (int i = 0; i < 20; i++)
             {
                 Individuals.Add(new Individual
                 {
                     Members = new double[8],
                     Score = 0
                 });
-                for(int j = 0; j < 8; j++)
+                for (int j = 0; j < 8; j++)
                 {
-                    Individuals[i].Members[j] = random.NextDouble()*10;
+                    Individuals[i].Members[j] = random.NextDouble() * 10;
                 }
             }
         }
