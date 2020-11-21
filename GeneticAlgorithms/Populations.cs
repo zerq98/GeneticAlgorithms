@@ -22,7 +22,7 @@ namespace GeneticAlgorithms
                 });
                 for (int j = 0; j < 8; j++)
                 {
-                    Individuals[i].Members[j] = random.NextDouble() * 10;
+                    Individuals[i].Members[j] = random.NextDouble() * (10+10) - 10;
                 }
             }
         }
@@ -43,12 +43,12 @@ namespace GeneticAlgorithms
 
             for (int j = 0; j < 8; j++)
             {
-                Individuals[18].Members[j] = random.NextDouble() * 10;
+                Individuals[18].Members[j] = random.NextDouble() * (10 + 10) - 10;
             }
 
             for (int j = 0; j < 8; j++)
             {
-                Individuals[19].Members[j] = random.NextDouble() * 10;
+                Individuals[19].Members[j] = random.NextDouble() * (10 + 10) - 10;
             }
         }
     }

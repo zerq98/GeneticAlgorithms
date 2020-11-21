@@ -25,10 +25,14 @@ namespace GeneticAlgorithms
                 {
                     for (int g = 0; g < 8; g++)
                     {
+                        double score = 0;
+
                         for (int j = 0; j < 8; j++)
                         {
-                            populations.Individuals[i].Score += equations.Equation[g, j] * populations.Individuals[i].Members[j];
+                             score += equations.Equation[g, j] * populations.Individuals[i].Members[j];
                         }
+
+                        populations.Individuals[i].Score += equations.BTable[g] - score;
                     }
                 }
 
@@ -37,18 +41,18 @@ namespace GeneticAlgorithms
                 counter = 0;
                 foreach (var adaptation in populations.Individuals)
                 {
-                    if (adaptation.Score <= 1 && adaptation.Score >= 0)
+                    if (adaptation.Score < 1 && adaptation.Score >= 0)
                     {
                         adaptedIndividual = true;
                         indexOfAdaptedIndividual = counter;
                         mix = false;
                     }
-                    counter += 1;
+                    counter++;
                 }
 
                 if (mix)
                 {
-                    for (int i = 0; i < 20;)
+                    for (int i = 2; i < 18;)
                     {
                         for (int g = 4; g < 8; g++)
                         {
