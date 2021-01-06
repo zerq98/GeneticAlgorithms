@@ -50,6 +50,11 @@ namespace GeneticAlgorithms
             {
                 Individuals[19].Members[j] = random.NextDouble() * (10 + 10) - 10;
             }
+
+            for(int i =0; i < 4; i++)
+            {
+                Individuals[random.Next(0,17)].Members[random.Next(0, 7)] = random.NextDouble() * (10 + 10) - 10;
+            }
         }
     }
 }

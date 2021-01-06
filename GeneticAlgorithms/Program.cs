@@ -41,7 +41,7 @@ namespace GeneticAlgorithms
                 counter = 0;
                 foreach (var adaptation in populations.Individuals)
                 {
-                    if (adaptation.Score < 1 && adaptation.Score >= 0)
+                    if (adaptation.Score < 0.1 && adaptation.Score >= 0)
                     {
                         adaptedIndividual = true;
                         indexOfAdaptedIndividual = counter;
